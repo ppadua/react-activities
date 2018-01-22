@@ -1,13 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import LoginControl from './App';
-import LeftContent from './LeftContent';
+import ClockTicking from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 
-
-ReactDOM.render(<LoginControl />, document.getElementById('registration'));
-ReactDOM.render(<LeftContent />, document.getElementById('left_content'));
+setInterval(function(){
+    ReactDOM.render(<ClockTicking />, document.getElementById('clock'));
+}, 1000)
 registerServiceWorker();
-
