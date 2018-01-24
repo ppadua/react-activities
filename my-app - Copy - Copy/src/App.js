@@ -22,13 +22,25 @@ class LoginControl extends Component {
 	}
 
 	handleInputChange(event) {
+		console.log(event)
 		const target = event.target;
 		const value =  target.value;
 		const name = target.name;
+		console.log(target)
+		console.log(value)
 
 		this.setState({
 			[name]: value
 		});
+	}
+	handleClick(event) {
+		console.log(event)
+		const target = event.target;
+		const value =  target.value;
+		const name = target.name;
+		console.log(target)
+		console.log(value)
+
 	}
 
 	handleInputSubmit(event) {
@@ -40,7 +52,7 @@ class LoginControl extends Component {
 	render() {
 		return (
 			<form onSubmit={this.handleInputSubmit}>
-				<input name="first_name" type="text" value={this.state.first_name} onChange={this.handleInputChange} placeholder="First Name"/>
+				<input name="first_name" type="text" value={this.state.first_name} onClick={this.handleClick} placeholder="First Name"/>
 				<input name="last_name" type="text" value={this.state.last_name} onChange={this.handleInputChange} placeholder="Last Name"/>
 				<input name="email_address" type="text" value={this.state.email_address} onChange={this.handleInputChange} placeholder="Mobile number or email" />
 				<input name="password" type="text" value={this.state.password} onChange={this.handleInputChange} placeholder="New Password" />
@@ -80,4 +92,3 @@ class LoginControl extends Component {
 	}
 }
 export default LoginControl;
-
