@@ -1,0 +1,63 @@
+*{
+    list-style: none;
+}
+
+ul{
+    padding: 0px;
+    margin: 5px;
+}
+
+ul li span:nth-child(1){
+    width: 50px;
+    display: inline-block;
+}
+
+#todo{
+    width: 100%;
+}
+#todo >div{
+    width: 40%;
+    margin: 0px auto;
+}
+
+.records{
+    border: 1px solid black;
+    width: 320px;
+    display: inline-block;
+    vertical-align: top;
+    height: 102px;
+    overflow: scroll;
+}
+
+.className{
+
+}
+
+.records .time {
+    padding: 5px;
+}
+
+.records .time span{
+    width: 245px;
+    display: inline-block;
+}
+
+label{
+    display: block;
+}
+
+label span{
+    display: inline-block;
+    width: 100px;
+}
+
+.description{
+    color:red;
+}
+
+form{
+    margin: 10px 0px;
+    border: 1px solid black;
+    width: 640px;
+    padding: 10px;
+}
