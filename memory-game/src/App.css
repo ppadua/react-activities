@@ -22,3 +22,13 @@ li{
 .correct_start_card{
     background-color: #FFE599;
 }
+
+ul{
+    width: 28%;
+    margin: 0px auto;
+    padding: 0px !important;
+}
+
+#todo{
+    text-align: center;
+}

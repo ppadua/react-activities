@@ -1,0 +1,29 @@
+*{
+    list-style: none;
+}
+#wrapper{
+    width: 100%;
+}
+#container{
+    text-align: center;
+    margin: 0px auto;
+    width: 80%;
+}
+
+
+ul li{
+    width: 300px;
+    margin: 0px auto;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;;
+}
+
+ul li .score{
+    display: block;
+    font-size: 30px;
+}
+
+ul li button:nth-child(2){
+    margin-right: 10px;
+}
