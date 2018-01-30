@@ -1,0 +1,61 @@
+*{
+    list-style: none;
+}
+
+ul{
+    padding: 0px;
+    margin: 5px;
+}
+
+ul li span:nth-child(1){
+    width: 50px;
+    display: inline-block;
+}
+
+#todo{
+    width: 100%;
+}
+#todo >div{
+    width: 40%;
+    margin: 0px auto;
+}
+
+.records .time {
+    padding: 5px;
+}
+
+.records .time span{
+    width: 245px;
+    display: inline-block;
+}
+
+label{
+    display: block;
+}
+
+label span{
+    display: inline-block;
+    width: 100px;
+}
+
+form{
+    margin: 20px 0px;
+    width: 430px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+form input[type=submit]{
+    width: 300px;
+    margin-top: 10px;;
+}
+
+#score{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#score h2{
+color:green
+}
